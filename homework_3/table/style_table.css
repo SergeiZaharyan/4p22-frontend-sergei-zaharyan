@@ -56,16 +56,37 @@ transform: scale(1.5,1.5);
 }
 table{
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    left: 150px;
-    top: 100px;
-}
-body{
-    position: relative;
+    margin: 0 auto;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-    position: absolute;
-    left: 320px;
+    margin: 0 auto;
+    text-align: center;
+}
+body{
+    text-align:center;
+}
+.menu{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: solid rgb(15, 15, 15) 2px;
+    margin: 40px;
+    box-shadow: 2px 2px 2px 1px rgb(149, 147, 147);
+    transition: 0.2s; 
+}
+.menu:link { text-decoration: none; }
+.menu:visited { text-decoration: none; }
+.menu:active { text-decoration: none; }
+.menu:hover { 
+background-color: red;
+font-size: 24px; 
+ font-weight: bold; 
+ color: black;
+ box-shadow: 0 0 8px 5px red;
+ border: solid red 1px;
+}
+.space{
+    height: 10px;
 }

@@ -1,0 +1,63 @@
+.nav{
+    margin-bottom: 400px;
+}
+    .nav a{
+        font-size: xx-large;
+        display: grid;
+        width: 300px;
+        color: black;
+    }
+.nav a:link { text-decoration: none; }
+.nav a:visited { text-decoration: none; }
+.nav a:active { text-decoration: none; }
+.nav a:hover { 
+background-color: red;
+font-size: 24px; 
+ font-weight: bold; 
+ color: black;
+ box-shadow: 0 0 8px 5px red;
+ border: solid red 1px;
+}
+.text{
+    width: 300px;
+    font-size: 50px;
+}
+.header{ font-size: 60px;}
+h1{font-size: 100px;}
+a{
+    font-size: xx-large;
+    display: grid;
+    width: 300px;
+    color: black;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+a:hover { 
+    background-color: rgb(24, 154, 41);
+    font-size: 24px; 
+    font-weight: bold; 
+    color: black;
+    box-shadow: 0 0 8px 5px  rgb(24, 154, 41);
+    border: solid  rgb(24, 154, 41) 1px;
+}
+.menu{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: solid rgb(15, 15, 15) 2px;
+    margin: 40px;
+    box-shadow: 2px 2px 2px 1px rgb(149, 147, 147);
+    transition: 0.2s; 
+}
+.menu:link { text-decoration: none; }
+.menu:visited { text-decoration: none; }
+.menu:active { text-decoration: none; }
+.menu:hover { 
+background-color: red;
+font-size: 24px; 
+ font-weight: bold; 
+ color: black;
+ box-shadow: 0 0 8px 5px red;
+ border: solid red 1px;
+}
