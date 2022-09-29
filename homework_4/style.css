@@ -1,0 +1,82 @@
+    .dashbord-information {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px;
+    height: 976px;
+    width: 836px;
+    background-color: rgb(206, 132, 132);
+}
+    .information {
+        box-sizing: border-box;
+        border: 1px solid rgb(168, 165, 165);
+        padding: 10px;
+        width: 233px;
+        height: 227px;
+        border-radius: 27px;
+        align-items: center;
+        position: relative;
+    }
+        .interest{
+            padding: 5px;
+            box-sizing: border-box;
+            width: 190px;
+            height: 190px;
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            top: 50%;
+            transform: translate(0, -50%);
+            display: grid;
+            grid-template-columns: 40% 60%;
+            grid-template-rows: 30% 70%;
+            font-family: "verdana", Helvetica, sans-serif;
+        }
+        .name-info{
+            justify-self: start;
+            align-self: center;
+            align-self: center;
+            flex-basis: 50%;
+            display: block;
+            margin-top: 0;
+        }
+
+        .icon-info{
+            flex-basis: 50%;
+            width: 25px;
+            height: 25px;
+            display: block;
+            justify-self: end;
+            align-self: start;
+            margin-top: 0;
+        }
+        .info-change{
+            flex-basis: 50%;
+            display: block;
+            justify-self: end;
+            align-self: end;
+            font-weight: bold;
+            font-size: 40px;
+            margin-bottom: 0;
+            padding-right: 2px;
+        }
+        .info-change1{
+            flex-basis: 50%;
+            display: block;
+            justify-self: start;
+            align-self: end;
+            margin-bottom: 0;
+            padding-bottom: 4px;
+        }
+
+.background-info {
+opacity: 0.75;
+display: block;
+position: absolute;
+right: 0;
+left: 0;
+margin: 0 auto;
+top: 50%;
+transform: translate(0, -50%);
+}
