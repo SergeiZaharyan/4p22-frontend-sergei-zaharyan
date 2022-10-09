@@ -108,7 +108,7 @@ font-size: large;
     width: 100%;
     height: fit-content;
 }
-    .content-conteiner li{
+    .content__conteiner li{
         display: block;
         align-items: center;
         align-self: center;
@@ -120,10 +120,6 @@ font-size: large;
         background-color: azure;
         font-size: 25px;
         font-weight: 500; 
-}
-.content-conteiner li{
-    align-items: center;
-    align-self: center;
 }
 .content__letters-heder{
     background-color: #fac4c4;
