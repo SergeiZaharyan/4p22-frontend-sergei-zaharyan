@@ -7,7 +7,7 @@ margin: 0;
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-color: blue;
+    background-color: #1B2473;
 }
 .poppup{
     box-sizing: border-box;
@@ -113,7 +113,7 @@ input[type="password" i] {
     margin-bottom: calc(4.4px + 1.5vw);
     width: calc(90px + 6.25vw);
     height: calc(23.6px + 2vw);
-    background: #1A226B;
+    background: #1B2473;
     border-radius: 10px;
     font-family: 'Roboto';
     font-style: normal;
@@ -217,7 +217,7 @@ input[type="password" i] {
         margin-bottom: calc(9.2px + 2vw);
         width: calc(90px + 6.25vw);
         height: calc(23.6px + 2vw);
-        background: #1A226B;
+        background: #1B2473;
         border-radius: 10px;
         font-family: 'Roboto';
         font-style: normal;
