@@ -63,8 +63,8 @@ margin-left: 53px;
     line-height: calc(21.6px + 1vw);
     color: #787878;
 }
-input[type="text" i] {
-    padding: 1px 2px 1px 15px;
+input[type="email" i] {
+    padding-left: calc(7.8px + 0.5vw);
 }
 .poppup__password{
     margin-bottom: calc(1.6px + 1vw);
@@ -76,7 +76,7 @@ input[type="text" i] {
     color: #CCCCCC;
 }
 input[type="password" i] {
-    padding: 1px 2px 1px 15px;
+    padding-left: calc(7.8px + 0.5vw);
 }
 .subscription{
     display: flex;
@@ -129,7 +129,7 @@ input[type="password" i] {
     .poppup{
         box-sizing: border-box;
         width: 94.792vw;
-        height: calc(348.5px + 45.3777vw);
+        height: calc(697/768 * 100vw);
         margin-left: 0;
         margin-right: 0;
         margin-top: 9px;
@@ -161,7 +161,7 @@ input[type="password" i] {
         margin-bottom: 3px;
         color: #787878;
         text-align: left;
-        margin-left: calc(22.28px + 4vw);
+        margin-left: calc(45/768 * 100vw);
     }
     .poppup__style-input{
         box-sizing: border-box;
@@ -209,7 +209,7 @@ input[type="password" i] {
         margin-top: 0;
         margin-bottom: 0;
         margin-right: 10px;
-        margin-left: calc(14.28px + 4vw);
+        margin-left: calc(45/768 * 100vw);
     }
     .poppup__button-enter{
         box-sizing: border-box;
