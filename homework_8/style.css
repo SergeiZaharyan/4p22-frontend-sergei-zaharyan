@@ -178,15 +178,14 @@ input[type="password" i] {
 }
 .poppup__button-enter{
     box-sizing: border-box;
-    margin-bottom: calc(4.4px + 1.5vw);
-    width: calc(90px + 6.25vw);
-    height: calc(23.6px + 2vw);
+    width: calc(180/1440 * 100vw);
+    height: calc(52/1440 * 100vw);
     background: #1B2473;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: calc(16.8px + 0.5vw);
-    line-height: calc(13.4px + 0.25vw);
+    font-size: calc(24/1440 * 100vw);
+    line-height: calc(16/1440 * 100vw);
     color: #FFFFFF;
     border: 0;
 }
