@@ -182,7 +182,6 @@ input[type="password" i] {
     width: calc(90px + 6.25vw);
     height: calc(23.6px + 2vw);
     background: #1B2473;
-    border-radius: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -347,6 +346,5 @@ input[type="password" i] {
         font-size: calc(24/768 * 100vw);
         line-height: calc(16/768 * 100vw);
         color: #FFFFFF;
-        border-radius: 0;
 }
 }
