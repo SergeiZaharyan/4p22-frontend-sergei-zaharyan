@@ -11,17 +11,20 @@ submit.addEventListener('click', (event) => {
     let result;
     event.preventDefault();
 
-if (inputNum1 === "") {return console.log("Первое число не указаано")};
-if (inputNum2 === "") {return console.log("Второе число не указано")};
 
-if (typeof inputNum1 === "number" || typeof inputNum2 === "number") {
+
+
+if (inputNum1 === "") {return meaning.innerText = "Первое число не указаано"};
+if (inputNum2 === "") {return meaning.innerText ="Второе число не указано"};
+
+if (isNaN(inputNum1) == true || isNaN(inputNum2) == true) {
     meaning.innerText = "Некорректный ввод чисел";
     return console.log("Некорректный ввод чисел");
   };
 
   switch (inputOperator) {
     case "":
-      return console.log("Не введён знак");
+      return meaning.innerText = "Не введён знак";
       break;
     case "+":
         result = Number(inputNum1) + Number(inputNum2);
