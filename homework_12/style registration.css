@@ -351,6 +351,10 @@ input[type="checkbox"]:checked::before {
         color: #EE2424;
         text-align: end;
     }
+    .block-off{
+        display: none;
+    }
+   
 
 @media screen and (max-device-width: 768px){
     .main{
