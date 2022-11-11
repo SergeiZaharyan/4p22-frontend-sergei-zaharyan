@@ -339,7 +339,7 @@ input[type="checkbox"]:checked::before {
     margin-bottom: calc(5/1440 * 100vw);
     color: #787878;
     text-align: left;
-    margin-left: calc(45/1440 * 100vw);
+    margin-left: calc(33/1440 * 100vw);
     }
     .poppup__subtitle-erorr{
         width: calc(300/1440 * 100vw);
@@ -685,7 +685,7 @@ input[type="checkbox"]:checked::before {
         margin-bottom: calc(5/768 * 100vw);
         color: #787878;
         text-align: left;
-        margin-left: calc(45/768 * 100vw);
+        margin-left: calc(33/768 * 100vw);
         }
         .poppup__subtitle-erorr{
             width: calc(300/768 * 100vw);
