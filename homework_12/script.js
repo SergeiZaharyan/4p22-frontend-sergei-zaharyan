@@ -91,7 +91,7 @@ if (  (passwordSecond !== password) || (passwordSecond.length <! 8)) {
 
     inputPasswordSecond.classList.remove(`error`);
     passwordSecondSubtitle.classList.add(`block-off`);
-    submitForm();
+    if(validateEmail(email) === true) {submitForm();};
     
 };
 
